@@ -1,0 +1,7 @@
+User-agent: Googlebot
+Disallow: /nogooglebot/
+
+User-agent: *
+Allow: /
+
+Sitemap: https://hospitable-bogus-penguin-20lt0o.teleporthq.site/sitemap.xml

@@ -1,0 +1,357 @@
+.navigation-wrapper {
+  display: contents;
+}
+ 
+.navigation-container1 {
+  height: 12%;
+  display: contents;
+}
+ 
+.navigation-thq-navigation-container-elm {
+  height: auto;
+  background-color: #f5e5bd;
+}
+ 
+.navigation-thq-navigation-wrapper-elm {
+  height: 75px;
+}
+ 
+.navigation-thq-navigation-brand-elm1 {
+  align-items: center;
+  justify-content: center;
+}
+ 
+.navigation-image {
+  width: 91px;
+  height: 92px;
+  object-fit: cover;
+}
+ 
+.navigation-thq-navigation-link-elm1 {
+  text-decoration: none;
+}
+ 
+.navigation-thq-navigation-link-elm2 {
+  text-decoration: none;
+}
+ 
+.navigation-thq-navigation-link-elm3 {
+  text-decoration: none;
+}
+ 
+.navigation-thq-navigation-mobile-link-elm2 {
+  text-decoration: none;
+}
+ 
+.navigation-container2 {
+  display: none;
+}
+ 
+.navigation-container3 {
+  display: contents;
+}
+ 
+.navigation-container4 {
+  display: none;
+}
+ 
+.navigation-container5 {
+  display: contents;
+}
+ 
+.navigation-thq-navlinks-elm {
+  gap: 16px;
+  border: 2px dashed rgba(120, 120, 120, 0.4);
+  display: flex;
+  align-items: center;
+}
+ 
+.navigationroot-class-name {
+  height: 12vh;
+}
+ 
+.navigationroot-class-name1 {
+  height: auto;
+}
+ 
+@media(max-width: 479px) {
+  .navigation-container1 {
+    height: 12vh;
+  }
+  .navigation-thq-navigation-container-elm {
+    width: 100%;
+    height: 12vh;
+  }
+  .navigation-image {
+    width: 85px;
+    height: 85px;
+  }
+  .navigationroot-class-name {
+    height: 12vh;
+  }
+  .navigationroot-class-name1 {
+    width: 100vw;
+  }
+}
+
+.footer-wrapper {
+  display: contents;
+}
+ 
+.footer-container1 {
+  display: contents;
+}
+ 
+.footer-thq-footer-visual-divider-elm {
+  height: 143px;
+}
+ 
+.footer-thq-footer-bg-media-elm {
+  height: 144px;
+}
+ 
+.footer-thq-footer-container-elm {
+  height: 508px;
+}
+ 
+.footer-thq-logo-image-elm {
+  width: 120px;
+  height: auto;
+  object-fit: contain;
+}
+ 
+.footer-thq-footer-nav-link-elm1 {
+  text-decoration: none;
+}
+ 
+.footer-thq-footer-nav-link-elm2 {
+  text-decoration: none;
+}
+ 
+.footer-thq-footer-nav-link-elm3 {
+  text-decoration: none;
+}
+ 
+.footer-thq-btn-elm {
+  text-decoration: none;
+}
+ 
+.footer-thq-footer-credits-elm {
+  border: 2px dashed rgba(120, 120, 120, 0.4);
+}
+ 
+.footer-container2 {
+  display: none;
+}
+ 
+.footer-container3 {
+  display: contents;
+}
+ 
+
+ 
+
+
+.showcase-gallery-container1 {
+  width: 100%;
+  min-height: 100vh;
+}
+ 
+.showcase-gallery-thq-page-title-section-elm {
+  padding: var(--spacing-4xl) 0 var(--spacing-2xl);
+  background-color: var(--color-surface);
+}
+ 
+.showcase-gallery-container2 {
+  margin: 0 auto;
+  padding: 0 var(--spacing-xl);
+  max-width: var(--content-max-width);
+  text-align: center;
+}
+ 
+.showcase-gallery-thq-section-title-elm1 {
+  color: var(--color-primary);
+  margin-bottom: var(--spacing-md);
+}
+ 
+.showcase-gallery-thq-section-subtitle-elm {
+  color: var(--color-on-surface-secondary);
+  font-size: var(--font-size-lg);
+  font-family: var(--font-family-body);
+  line-height: var(--line-height-body);
+}
+ 
+.showcase-gallery-thq-coffin-jockeys-elm {
+  width: 100%;
+  height: 569px;
+}
+ 
+.showcase-gallery-thq-production-gallery-container-elm1 {
+  height: 154px;
+}
+ 
+.showcase-gallery-thq-section-content-elm1 {
+  width: 684px;
+  height: 35px;
+}
+ 
+.showcase-gallery-thq-production-gallery-carousel-elm1 {
+  width: 1200px;
+}
+ 
+.showcase-gallery-image12 {
+  width: 405px;
+}
+ 
+.showcase-gallery-thq-image3-elm1 {
+  width: 405px;
+}
+ 
+.showcase-gallery-thq-play1982-elm {
+  width: 100%;
+  height: 569px;
+}
+ 
+.showcase-gallery-thq-production-gallery-container-elm2 {
+  height: 154px;
+}
+ 
+.showcase-gallery-thq-section-content-elm2 {
+  width: 684px;
+  height: 35px;
+}
+ 
+.showcase-gallery-thq-production-gallery-carousel-elm2 {
+  width: 1200px;
+}
+ 
+.showcase-gallery-image20 {
+  height: 620px;
+}
+ 
+.showcase-gallery-image21 {
+  width: 405px;
+}
+ 
+.showcase-gallery-thq-image3-elm2 {
+  width: 405px;
+}
+ 
+.showcase-gallery-thq-queensspeech-elm {
+  width: 100%;
+  height: 569px;
+}
+ 
+.showcase-gallery-thq-production-gallery-container-elm3 {
+  height: 154px;
+}
+ 
+.showcase-gallery-thq-section-content-elm3 {
+  width: 684px;
+  height: 35px;
+}
+ 
+.showcase-gallery-thq-production-gallery-carousel-elm3 {
+  width: 1200px;
+}
+ 
+.showcase-gallery-image29 {
+  height: 620px;
+}
+ 
+.showcase-gallery-image30 {
+  width: 405px;
+}
+ 
+.showcase-gallery-thq-image3-elm3 {
+  width: 405px;
+}
+ 
+.showcase-gallery-thq-intheshadowofthecathedral-elm {
+  width: 100%;
+  height: 569px;
+}
+ 
+.showcase-gallery-thq-production-gallery-container-elm4 {
+  height: 189px;
+}
+ 
+.showcase-gallery-thq-section-content-elm4 {
+  width: 684px;
+  height: 35px;
+}
+ 
+.showcase-gallery-thq-production-gallery-carousel-elm4 {
+  width: 1200px;
+}
+ 
+.showcase-gallery-image38 {
+  height: 620px;
+}
+ 
+.showcase-gallery-image39 {
+  width: 405px;
+}
+ 
+.showcase-gallery-thq-image3-elm4 {
+  width: 405px;
+}
+ 
+.showcase-gallery-container3 {
+  display: none;
+}
+ 
+.showcase-gallery-container4 {
+  display: contents;
+}
+ 
+.showcase-gallery-container5 {
+  display: none;
+}
+ 
+.showcase-gallery-container6 {
+  display: contents;
+}
+ 
+@media(max-width: 479px) {
+  .showcase-gallery-thq-coffin-jockeys-elm {
+    width: 100vw;
+    height: 491px;
+  }
+  .showcase-gallery-thq-production-gallery-container-elm1 {
+    max-width: 100vw;
+  }
+  .showcase-gallery-thq-production-gallery-header-elm1 {
+    width: auto;
+    max-width: 100vw;
+  }
+  .showcase-gallery-thq-section-content-elm1 {
+    width: 80vw;
+    height: 49px;
+    max-width: 100vw;
+    margin-right: 0px;
+  }
+  .showcase-gallery-thq-play1982-elm {
+    width: 100vw;
+    height: 493px;
+  }
+  .showcase-gallery-thq-section-content-elm2 {
+    width: 80vw;
+    height: 41px;
+  }
+  .showcase-gallery-thq-queensspeech-elm {
+    width: 100vw;
+    height: 497px;
+  }
+  .showcase-gallery-thq-section-content-elm3 {
+    width: 80vw;
+    height: 51px;
+  }
+  .showcase-gallery-thq-intheshadowofthecathedral-elm {
+    width: 100vw;
+  }
+  .showcase-gallery-thq-section-content-elm4 {
+    width: 80vw;
+    height: 60px;
+  }
+}

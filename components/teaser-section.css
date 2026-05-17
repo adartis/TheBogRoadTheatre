@@ -1,0 +1,72 @@
+.teaser-section-thq-teaser-section-elm {
+  height: 526px;
+  position: relative;
+}
+ 
+.teaser-section-fragment1 {
+  display: contents;
+}
+ 
+.teaser-section-text3 {
+  display: inline-block;
+}
+ 
+.teaser-section-fragment2 {
+  display: contents;
+}
+ 
+.teaser-section-text4 {
+  display: inline-block;
+}
+ 
+.teaser-section-fragment3 {
+  display: contents;
+}
+ 
+.teaser-section-text5 {
+  display: inline-block;
+}
+ 
+.teaser-section-fragment4 {
+  display: contents;
+}
+ 
+.teaser-section-text6 {
+  display: inline-block;
+}
+ 
+.teaser-section-fragment5 {
+  display: contents;
+}
+ 
+.teaser-section-text7 {
+  display: inline-block;
+}
+ 
+.teaser-sectionroot-class-name {
+  align-self: center;
+}
+ 
+@media(max-width: 479px) {
+  .teaser-section-thq-teaser-section-elm {
+    height: 888px;
+  }
+  .teaser-section-thq-teaser-container-elm {
+    height: 1207px;
+  }
+  .teaser-section-thq-teaser-card-elm {
+    height: 823px;
+  }
+  .teaser-section-thq-teaser-image-wrapper-elm {
+    height: auto;
+    min-height: auto;
+  }
+  .teaser-section-thq-teaser-poster-elm {
+    width: 423px;
+    height: 244px;
+  }
+  .teaser-section-thq-teaser-info-elm {
+    height: 563px;
+    padding-bottom: 92px;
+  }
+}
