@@ -1181,6 +1181,7 @@
   width: 100%;
   padding: var(--spacing-xl) 0;
   position: relative;
+  overflow: hidden;
 }
  
 .hero-diagonal-container {
@@ -2748,7 +2749,7 @@
   gap: var(--spacing-lg);
   width: max-content;
   display: flex;
-  animation: scrollCarousel 60s linear infinite;
+  animation: scrollCarousel 120s linear infinite;
 }
  
 .carousel-item {
