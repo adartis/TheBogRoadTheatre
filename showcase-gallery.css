@@ -59,21 +59,6 @@
   display: contents;
 }
  
-.navigation-thq-navlinks-elm {
-  gap: 16px;
-  border: 2px dashed rgba(120, 120, 120, 0.4);
-  display: flex;
-  align-items: center;
-}
- 
-.navigationroot-class-name {
-  height: 12vh;
-}
- 
-.navigationroot-class-name1 {
-  height: auto;
-}
- 
 @media(max-width: 479px) {
   .navigation-container1 {
     height: 12vh;
@@ -85,12 +70,6 @@
   .navigation-image {
     width: 85px;
     height: 85px;
-  }
-  .navigationroot-class-name {
-    height: 12vh;
-  }
-  .navigationroot-class-name1 {
-    width: 100vw;
   }
 }
 
@@ -134,10 +113,6 @@
  
 .footer-thq-btn-elm {
   text-decoration: none;
-}
- 
-.footer-thq-footer-credits-elm {
-  border: 2px dashed rgba(120, 120, 120, 0.4);
 }
  
 .footer-container2 {
@@ -195,18 +170,6 @@
   height: 35px;
 }
  
-.showcase-gallery-thq-production-gallery-carousel-elm1 {
-  width: 1200px;
-}
- 
-.showcase-gallery-image12 {
-  width: 405px;
-}
- 
-.showcase-gallery-thq-image3-elm1 {
-  width: 405px;
-}
- 
 .showcase-gallery-thq-play1982-elm {
   width: 100%;
   height: 569px;
@@ -219,22 +182,6 @@
 .showcase-gallery-thq-section-content-elm2 {
   width: 684px;
   height: 35px;
-}
- 
-.showcase-gallery-thq-production-gallery-carousel-elm2 {
-  width: 1200px;
-}
- 
-.showcase-gallery-image20 {
-  height: 620px;
-}
- 
-.showcase-gallery-image21 {
-  width: 405px;
-}
- 
-.showcase-gallery-thq-image3-elm2 {
-  width: 405px;
 }
  
 .showcase-gallery-thq-queensspeech-elm {
@@ -251,22 +198,6 @@
   height: 35px;
 }
  
-.showcase-gallery-thq-production-gallery-carousel-elm3 {
-  width: 1200px;
-}
- 
-.showcase-gallery-image29 {
-  height: 620px;
-}
- 
-.showcase-gallery-image30 {
-  width: 405px;
-}
- 
-.showcase-gallery-thq-image3-elm3 {
-  width: 405px;
-}
- 
 .showcase-gallery-thq-intheshadowofthecathedral-elm {
   width: 100%;
   height: 569px;
@@ -281,35 +212,11 @@
   height: 35px;
 }
  
-.showcase-gallery-thq-production-gallery-carousel-elm4 {
-  width: 1200px;
-}
- 
-.showcase-gallery-image38 {
-  height: 620px;
-}
- 
-.showcase-gallery-image39 {
-  width: 405px;
-}
- 
-.showcase-gallery-thq-image3-elm4 {
-  width: 405px;
-}
- 
 .showcase-gallery-container3 {
   display: none;
 }
  
 .showcase-gallery-container4 {
-  display: contents;
-}
- 
-.showcase-gallery-container5 {
-  display: none;
-}
- 
-.showcase-gallery-container6 {
   display: contents;
 }
  

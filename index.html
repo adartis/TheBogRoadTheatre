@@ -1,12 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>Bog Road Theatre</title>
-    <link rel="icon" type="image/x-icon" href="public/BRT/general/logo-200h.jpg">
-    <meta property="og:title" content="Bog Road Theatre" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta charset="utf-8" />
-    <meta property="twitter:card" content="summary_large_image" />
+    <title>BOG ROAD Theatre</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="BOG ROAD Theatre is an amateur drama group based in North Kerry, bringing new drama to the stage." />
+    <link rel="canonical" href="https://bogroadtheatre.ie/" />
+    <link rel="icon" href="favicon.ico" sizes="any" />
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png" />
+    <link rel="apple-touch-icon" href="apple-touch-icon.png" />
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="BOG ROAD Theatre" />
+    <meta property="og:title" content="BOG ROAD Theatre" />
+    <meta property="og:description" content="BOG ROAD Theatre is an amateur drama group based in North Kerry, bringing new drama to the stage." />
+    <meta property="og:url" content="https://bogroadtheatre.ie/" />
+    <meta property="og:image" content="https://bogroadtheatre.ie/public/BRT/general/logo-200h.jpg" />
+    <meta property="og:image:width" content="200" />
+    <meta property="og:image:height" content="200" />
+    <meta property="og:image:alt" content="BOG ROAD Theatre Logo" />
+    <meta name="twitter:card" content="summary" />
 
     <style data-tag="reset-style-sheet">
       html {  line-height: 1.15;}body {  margin: 0;}* {  box-sizing: border-box;  border-width: 0;  border-style: solid;  -webkit-font-smoothing: antialiased;}p,li,ul,pre,div,h1,h2,h3,h4,h5,h6,figure,blockquote,figcaption {  margin: 0;  padding: 0;}button {  background-color: transparent;}button,input,optgroup,select,textarea {  font-family: inherit;  font-size: 100%;  line-height: 1.15;  margin: 0;}button,select {  text-transform: none;}button,[type="button"],[type="reset"],[type="submit"] {  -webkit-appearance: button;  color: inherit;}button::-moz-focus-inner,[type="button"]::-moz-focus-inner,[type="reset"]::-moz-focus-inner,[type="submit"]::-moz-focus-inner {  border-style: none;  padding: 0;}button:-moz-focus,[type="button"]:-moz-focus,[type="reset"]:-moz-focus,[type="submit"]:-moz-focus {  outline: 1px dotted ButtonText;}a {  color: inherit;  text-decoration: inherit;}pre {  white-space: normal;}input {  padding: 2px 4px;}img {  display: block;}details {  display: block;  margin: 0;  padding: 0;}summary::-webkit-details-marker {  display: none;}[data-thq="accordion"] [data-thq="accordion-content"] {  max-height: 0;  overflow: hidden;  transition: max-height 0.3s ease-in-out;  padding: 0;}[data-thq="accordion"] details[data-thq="accordion-trigger"][open] + [data-thq="accordion-content"] {  max-height: 1000vh;}details[data-thq="accordion-trigger"][open] summary [data-thq="accordion-icon"] {  transform: rotate(180deg);}html { scroll-behavior: smooth  }
@@ -20,8 +32,6 @@
       body {
         font-weight: 400;
         font-style:normal;
-        text-decoration: undefined;
-        text-transform: undefined;
         letter-spacing: 0.02em;
         line-height: 1.65;
         color: var(--color-on-surface);
@@ -32,36 +42,13 @@
     </style>
     <link
       rel="stylesheet"
-      href="https://unpkg.com/animate.css@4.1.1/animate.css"
-    />
-    <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700&amp;display=swap"
       data-tag="font"
     />
     <link
       rel="stylesheet"
-      href="https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,400;0,600;0,700;0,900;1,400&amp;display=swap"
       data-tag="font"
-    />
-    <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700;900&amp;display=swap"
-      data-tag="font"
-    />
-    <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
-      data-tag="font"
-    />
-    <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/css2?family=STIX+Two+Text:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&amp;display=swap"
-      data-tag="font"
-    />
-    <link
-      rel="stylesheet"
-      href="https://unpkg.com/@teleporthq/teleport-custom-scripts/dist/style.css"
     />
     <link href="./index.css" rel="stylesheet" />
     <link rel="stylesheet" href="./style.css" />
@@ -73,12 +60,9 @@
       
 
       <div class="home-container1">
-        <navigation-wrapper
-          class="navigation-wrapper"
-          rootclassname="navigationundefined"
-        >
+        <navigation-wrapper class="navigation-wrapper">
           <!--Navigation component-->
-          <div class="navigation-container1 navigationroot-class-name1">
+          <div class="navigation-container1">
             <nav
               role="navigation"
               aria-label="Main Navigation"
@@ -93,8 +77,10 @@
                     class="navigation-thq-navigation-brand-elm1 navigation-brand"
                   >
                     <img
-                      alt="public/BRT/general/logo-200h.jpg"
+                      alt="BOG ROAD Theatre Logo"
                       src="public/BRT/general/logo-200h.jpg"
+                      width="200"
+                      height="200"
                       class="navigation-image"
                     />
                   </div>
@@ -131,7 +117,7 @@
                   </ul>
                   <div class="navigation-actions">
                     <a
-                      href="https://facebook.com"
+                      href="https://www.facebook.com/bogroadtheatre"
                       target="_blank"
                       rel="noreferrer noopener"
                     >
@@ -286,7 +272,7 @@
                     Bringing new drama to the stage.
                   </p>
                   <a
-                    href="https://facebook.com"
+                    href="https://www.facebook.com/bogroadtheatre"
                     target="_blank"
                     rel="noreferrer noopener"
                   >
@@ -368,7 +354,6 @@
                 </script>
               </div>
             </div>
-            <nav class="navigation-thq-navlinks-elm"></nav>
           </div>
         </navigation-wrapper>
         <div class="home-container2">
@@ -380,8 +365,10 @@
                 >
                   <div class="hero-media-side home-thq-hero-media-side-elm">
                     <img
-                      alt="Bally duff tower"
+                      alt="Ballyduff tower"
                       src="public/BRT/general/homepage_bally_duff_tower-1500w.jpg"
+                      width="1500"
+                      height="2000"
                       class="home-thq-hero-bg-image-elm hero-bg-image"
                     />
                   </div>
@@ -392,6 +379,8 @@
                       <img
                         alt="BOG ROAD Theatre Logo"
                         src="public/BRT/general/logo-200h.jpg"
+                        width="200"
+                        height="200"
                         loading="eager"
                         class="home-thq-hero-logo-elm"
                       />
@@ -407,7 +396,7 @@
                         new drama to the stage.
                       </p>
                       <div class="hero-actions home-thq-hero-actions-elm">
-                        <a href="https://facebook.com">
+                        <a href="https://www.facebook.com/bogroadtheatre" target="_blank" rel="noreferrer noopener">
                           <div
                             class="btn btn-primary home-btn-lg btn-lg home-thq-btn-elm1"
                           >
@@ -442,119 +431,248 @@
             <div
               class="home-thq-gallery-carousel-wrapper-elm gallery-carousel-wrapper"
             >
-              <div
-                id="galleryTrack"
-                class="gallery-track home-thq-gallery-track-elm"
-              >
+              <div class="gallery-track">
                 <div class="gallery-item">
                   <img
-                    alt="Production"
+                    alt="carousel_12-500h_correct_it"
                     src="public/BRT/carousel/12-500h.jpg"
+                    width="667"
+                    height="500"
+                    loading="lazy"
                     class="gallery-img"
                   />
-                  <div
-                    class="home-thq-gallery-overlay-elm10 gallery-overlay"
-                  ></div>
+                  <div class="gallery-overlay"></div>
                 </div>
                 <div class="gallery-item">
                   <img
-                    alt="Production"
+                    alt="carousel_02-500h_correct_it"
                     src="public/BRT/carousel/02-500h.jpg"
+                    width="554"
+                    height="500"
+                    loading="lazy"
                     class="gallery-img"
                   />
-                  <div
-                    class="home-thq-gallery-overlay-elm11 gallery-overlay"
-                  ></div>
+                  <div class="gallery-overlay"></div>
                 </div>
                 <div class="gallery-item">
                   <img
-                    alt="Production"
+                    alt="carousel_04-500h_correct_it"
                     src="public/BRT/carousel/04-500h.jpg"
+                    width="512"
+                    height="500"
+                    loading="lazy"
                     class="gallery-img"
                   />
-                  <div
-                    class="home-thq-gallery-overlay-elm12 gallery-overlay"
-                  ></div>
+                  <div class="gallery-overlay"></div>
                 </div>
                 <div class="gallery-item">
                   <img
-                    alt="Production"
+                    alt="carousel_05-500h_correct_it"
                     src="public/BRT/carousel/05-500h.jpg"
+                    width="667"
+                    height="500"
+                    loading="lazy"
                     class="gallery-img"
                   />
-                  <div
-                    class="home-thq-gallery-overlay-elm13 gallery-overlay"
-                  ></div>
+                  <div class="gallery-overlay"></div>
                 </div>
                 <div class="gallery-item">
                   <img
-                    alt="Production"
+                    alt="carousel_06-400w_correct_it"
                     src="public/BRT/carousel/06-400w.jpg"
+                    width="400"
+                    height="563"
+                    loading="lazy"
                     class="gallery-img"
                   />
-                  <div
-                    class="home-thq-gallery-overlay-elm14 gallery-overlay"
-                  ></div>
+                  <div class="gallery-overlay"></div>
                 </div>
                 <div class="gallery-item">
                   <img
-                    alt="Production"
+                    alt="carousel_07-500h_correct_it"
                     src="public/BRT/carousel/07-500h.jpg"
+                    width="588"
+                    height="500"
+                    loading="lazy"
                     class="gallery-img"
                   />
-                  <div
-                    class="home-thq-gallery-overlay-elm15 gallery-overlay"
-                  ></div>
+                  <div class="gallery-overlay"></div>
                 </div>
                 <div class="gallery-item">
                   <img
-                    alt="Production"
+                    alt="carousel_08-500h_correct_it"
                     src="public/BRT/carousel/08-500h.jpg"
+                    width="1118"
+                    height="500"
+                    loading="lazy"
                     class="gallery-img"
                   />
-                  <div
-                    class="home-thq-gallery-overlay-elm16 gallery-overlay"
-                  ></div>
+                  <div class="gallery-overlay"></div>
                 </div>
                 <div class="gallery-item">
                   <img
-                    alt="Production"
+                    alt="carousel_09-500h_correct_it"
                     src="public/BRT/carousel/09-500h.jpg"
+                    width="575"
+                    height="500"
+                    loading="lazy"
                     class="gallery-img"
                   />
-                  <div
-                    class="home-thq-gallery-overlay-elm17 gallery-overlay"
-                  ></div>
+                  <div class="gallery-overlay"></div>
                 </div>
                 <div class="gallery-item">
                   <img
-                    alt="Production"
+                    alt="carousel_01-500h_correct_it"
                     src="public/BRT/carousel/01-500h.jpg"
+                    width="667"
+                    height="500"
+                    loading="lazy"
                     class="gallery-img"
                   />
-                  <div
-                    class="home-thq-gallery-overlay-elm18 gallery-overlay"
-                  ></div>
+                  <div class="gallery-overlay"></div>
                 </div>
                 <div class="gallery-item">
                   <img
-                    alt="Production"
+                    alt="carousel_15-500h_correct_it"
                     src="public/BRT/carousel/15-500h.jpg"
+                    width="744"
+                    height="500"
+                    loading="lazy"
                     class="gallery-img"
                   />
-                  <div
-                    class="home-thq-gallery-overlay-elm19 gallery-overlay"
-                  ></div>
+                  <div class="gallery-overlay"></div>
                 </div>
                 <div class="gallery-item">
                   <img
-                    alt="Production"
+                    alt="carousel_17-500h_correct_it"
                     src="public/BRT/carousel/17-500h.jpg"
+                    width="449"
+                    height="500"
+                    loading="lazy"
                     class="gallery-img"
                   />
-                  <div
-                    class="home-thq-gallery-overlay-elm20 gallery-overlay"
-                  ></div>
+                  <div class="gallery-overlay"></div>
+                </div>
+                <div class="gallery-item" aria-hidden="true">
+                  <img
+                    alt="carousel_12-500h_correct_it"
+                    src="public/BRT/carousel/12-500h.jpg"
+                    width="667"
+                    height="500"
+                    loading="lazy"
+                    class="gallery-img"
+                  />
+                  <div class="gallery-overlay"></div>
+                </div>
+                <div class="gallery-item" aria-hidden="true">
+                  <img
+                    alt="carousel_02-500h_correct_it"
+                    src="public/BRT/carousel/02-500h.jpg"
+                    width="554"
+                    height="500"
+                    loading="lazy"
+                    class="gallery-img"
+                  />
+                  <div class="gallery-overlay"></div>
+                </div>
+                <div class="gallery-item" aria-hidden="true">
+                  <img
+                    alt="carousel_04-500h_correct_it"
+                    src="public/BRT/carousel/04-500h.jpg"
+                    width="512"
+                    height="500"
+                    loading="lazy"
+                    class="gallery-img"
+                  />
+                  <div class="gallery-overlay"></div>
+                </div>
+                <div class="gallery-item" aria-hidden="true">
+                  <img
+                    alt="carousel_05-500h_correct_it"
+                    src="public/BRT/carousel/05-500h.jpg"
+                    width="667"
+                    height="500"
+                    loading="lazy"
+                    class="gallery-img"
+                  />
+                  <div class="gallery-overlay"></div>
+                </div>
+                <div class="gallery-item" aria-hidden="true">
+                  <img
+                    alt="carousel_06-400w_correct_it"
+                    src="public/BRT/carousel/06-400w.jpg"
+                    width="400"
+                    height="563"
+                    loading="lazy"
+                    class="gallery-img"
+                  />
+                  <div class="gallery-overlay"></div>
+                </div>
+                <div class="gallery-item" aria-hidden="true">
+                  <img
+                    alt="carousel_07-500h_correct_it"
+                    src="public/BRT/carousel/07-500h.jpg"
+                    width="588"
+                    height="500"
+                    loading="lazy"
+                    class="gallery-img"
+                  />
+                  <div class="gallery-overlay"></div>
+                </div>
+                <div class="gallery-item" aria-hidden="true">
+                  <img
+                    alt="carousel_08-500h_correct_it"
+                    src="public/BRT/carousel/08-500h.jpg"
+                    width="1118"
+                    height="500"
+                    loading="lazy"
+                    class="gallery-img"
+                  />
+                  <div class="gallery-overlay"></div>
+                </div>
+                <div class="gallery-item" aria-hidden="true">
+                  <img
+                    alt="carousel_09-500h_correct_it"
+                    src="public/BRT/carousel/09-500h.jpg"
+                    width="575"
+                    height="500"
+                    loading="lazy"
+                    class="gallery-img"
+                  />
+                  <div class="gallery-overlay"></div>
+                </div>
+                <div class="gallery-item" aria-hidden="true">
+                  <img
+                    alt="carousel_01-500h_correct_it"
+                    src="public/BRT/carousel/01-500h.jpg"
+                    width="667"
+                    height="500"
+                    loading="lazy"
+                    class="gallery-img"
+                  />
+                  <div class="gallery-overlay"></div>
+                </div>
+                <div class="gallery-item" aria-hidden="true">
+                  <img
+                    alt="carousel_15-500h_correct_it"
+                    src="public/BRT/carousel/15-500h.jpg"
+                    width="744"
+                    height="500"
+                    loading="lazy"
+                    class="gallery-img"
+                  />
+                  <div class="gallery-overlay"></div>
+                </div>
+                <div class="gallery-item" aria-hidden="true">
+                  <img
+                    alt="carousel_17-500h_correct_it"
+                    src="public/BRT/carousel/17-500h.jpg"
+                    width="449"
+                    height="500"
+                    loading="lazy"
+                    class="gallery-img"
+                  />
+                  <div class="gallery-overlay"></div>
                 </div>
               </div>
             </div>
@@ -597,7 +715,7 @@
                             ></rect>
                           </g>
                         </svg>
-                        <span>bogroadtheatre@gmail.com</span>
+                        <a href="mailto:bogroadtheatre@gmail.com">bogroadtheatre@gmail.com</a>
                       </div>
                       <div class="detail-item">
                         <svg
@@ -662,10 +780,7 @@
               </div>
             </section>
           </main>
-          <teaser-section-wrapper
-            class="teaser-section-wrapper"
-            rootclassname="teaser-sectionundefined"
-          >
+          <teaser-section-wrapper class="teaser-section-wrapper">
             <!--TeaserSection component-->
             <section
               class="teaser-section-thq-teaser-section-elm teaser-section teaser-sectionroot-class-name"
@@ -678,8 +793,11 @@
                     class="teaser-image-wrapper teaser-section-thq-teaser-image-wrapper-elm"
                   >
                     <img
-                      alt="Performance1"
-                      src="public/BRT/play_coffin_jockeys/6-1500w.jpg"
+                      alt="Ferris: The Play_correct_it"
+                      src="public/BRT/general/Ferris_the_play.jpeg"
+                      width="1500"
+                      height="1353"
+                      loading="lazy"
                       class="teaser-poster teaser-section-thq-teaser-poster-elm"
                     />
                     <div class="teaser-date-chip">
@@ -710,7 +828,7 @@
                       <span>
                         <fragment class="home-fragment1">
                           <span class="home-text5">
-                            February to March 2026
+                            7 and 8 November 2026
                           </span>
                         </fragment>
                       </span>
@@ -719,7 +837,7 @@
                   <div class="teaser-info teaser-section-thq-teaser-info-elm">
                     <h2 class="section-title">
                       <fragment class="home-fragment3">
-                        <span class="home-text7">Coffin Jockeys</span>
+                        <span class="home-text7">Ferris: The Play</span>
                       </fragment>
                     </h2>
                     <p class="section-subtitle">
@@ -732,12 +850,12 @@
                     <p class="section-content">
                       <fragment class="home-fragment4">
                         <span class="home-text8">
-                          Coffin Jockeys was our most recent production, performed in Spring 2026. Stay tuned for our next production.
+                          Ferris: The Play, our newest production, will be performed performed in November 2026.
                         </span>
                       </fragment>
                     </p>
                     <div class="teaser-footer">
-                      <a href="https://facebook.com">
+                      <a href="https://www.facebook.com/bogroadtheatre" target="_blank" rel="noreferrer noopener">
                         <div class="btn btn-secondary">
                           <span>
                             <fragment class="home-fragment2">
@@ -770,55 +888,9 @@
             </section>
           </teaser-section-wrapper>
         </div>
-        <div class="home-container4">
-          <div class="home-container5">
-            <script defer="" data-name="gallery-parallax">
-              document.addEventListener('DOMContentLoaded', function() {
-                (function(){
-                  const track = document.getElementById("galleryTrack")
-                  let scrollPos = 0
-
-                  function animateGallery() {
-                    scrollPos -= 0.5 // Slow crawl speed
-
-                    // Reset position for seamless loop
-                    // Total width of 5 items + 5 gaps (350+24)*5 = 1870
-                    if (Math.abs(scrollPos) >= 1870) {
-                      scrollPos = 0
-                    }
-
-                    track.style.transform = `translateX(${scrollPos}px)`
-                    requestAnimationFrame(animateGallery)
-                  }
-
-                  // Simple intersection observer to only animate when visible
-                  const observer = new IntersectionObserver(
-                    (entries) => {
-                      entries.forEach((entry) => {
-                        if (entry.isIntersecting) {
-                          requestAnimationFrame(animateGallery)
-                        }
-                      })
-                    },
-                    { threshold: 0.1 }
-                  )
-
-                  if (track) {
-                    observer.observe(track)
-                  }
-
-                  // Hover effect to pause
-                  track.addEventListener("mouseenter", () => {
-                    // Logic to slow down or pause could go here but keeping it simple for LOW animation level
-                  })
-                })()
-              });
-            </script>
-          </div>
-        </div>
-        <footer-wrapper class="footer-wrapper" rootclassname="footerundefined">
+        <footer-wrapper class="footer-wrapper">
           <!--Footer component-->
-          <div class="footer-container1 footerroot-class-name">
+          <div class="footer-container1">
             <footer class="footer-root">
               <div
                 class="footer-thq-footer-visual-divider-elm footer-visual-divider"
@@ -838,6 +910,9 @@
                         <img
                           alt="BOG ROAD Theatre Logo"
                           src="public/BRT/general/logo-200h.jpg"
+                          width="200"
+                          height="200"
+                          loading="lazy"
                           class="footer-thq-logo-image-elm"
                         />
                       </div>
@@ -912,9 +987,9 @@
                             </g>
                           </svg>
                         </div>
-                        <span class="section-content">
+                        <a href="mailto:bogroadtheatre@gmail.com" class="section-content">
                           bogroadtheatre@gmail.com
-                        </span>
+                        </a>
                       </div>
                     </div>
                   </div>
@@ -992,9 +1067,6 @@
                       © 2026 BOG ROAD Theatre.
                     </span>
                   </div>
-                  <div
-                    class="footer-thq-footer-credits-elm footer-credits"
-                  ></div>
                 </div>
               </div>
             </footer>

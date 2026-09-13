@@ -59,21 +59,6 @@
   display: contents;
 }
  
-.navigation-thq-navlinks-elm {
-  gap: 16px;
-  border: 2px dashed rgba(120, 120, 120, 0.4);
-  display: flex;
-  align-items: center;
-}
- 
-.navigationroot-class-name {
-  height: 12vh;
-}
- 
-.navigationroot-class-name1 {
-  height: auto;
-}
- 
 @media(max-width: 479px) {
   .navigation-container1 {
     height: 12vh;
@@ -85,12 +70,6 @@
   .navigation-image {
     width: 85px;
     height: 85px;
-  }
-  .navigationroot-class-name {
-    height: 12vh;
-  }
-  .navigationroot-class-name1 {
-    width: 100vw;
   }
 }
 
@@ -136,10 +115,6 @@
   text-decoration: none;
 }
  
-.footer-thq-footer-credits-elm {
-  border: 2px dashed rgba(120, 120, 120, 0.4);
-}
- 
 .footer-container2 {
   display: none;
 }
@@ -176,4 +151,61 @@
  
 .about-the-group-container5 {
   display: contents;
+}
+
+.about-the-group-thq-page-title-section-elm {
+  padding: var(--spacing-4xl) 0 var(--spacing-2xl);
+  background-color: var(--color-surface);
+}
+
+.about-the-group-page-title-container {
+  margin: 0 auto;
+  padding: 0 var(--spacing-xl);
+  max-width: var(--content-max-width);
+  text-align: center;
+}
+
+.about-the-group-thq-section-title-elm {
+  color: var(--color-primary);
+}
+ 
+.about-the-group-studio {
+  background: linear-gradient(to bottom, var(--color-surface), var(--color-surface-elevated));
+}
+ 
+.about-the-group-studio-container {
+  margin: 0 auto;
+  padding: 0 var(--spacing-xl);
+  max-width: var(--content-max-width);
+}
+ 
+.about-the-group-studio-header {
+  gap: var(--spacing-md);
+  margin: 0 auto var(--spacing-2xl);
+  display: flex;
+  max-width: 45rem;
+  text-align: center;
+  flex-direction: column;
+}
+ 
+.about-the-group-studio-header .section-title {
+  color: var(--color-primary);
+}
+ 
+.about-the-group-studio-video-wrapper {
+  margin: 0 auto;
+  overflow: hidden;
+  max-width: min(400px, calc(80vh * 400 / 720));
+  background-color: #000;
+  box-shadow: 0 20px 40px color-mix(in srgb, var(--color-primary) 15%, transparent);
+  border-radius: var(--border-radius-lg);
+}
+ 
+/* The clip is portrait footage (402px wide) inside a 1280x720 frame; a 400:720 box with object-fit: cover crops the black side bars */
+.about-the-group-studio-video {
+  width: 100%;
+  height: auto;
+  display: block;
+  object-fit: cover;
+  aspect-ratio: 400 / 720;
 }
