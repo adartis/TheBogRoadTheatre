@@ -607,7 +607,7 @@
   gap: var(--spacing-lg);
   width: max-content;
   display: flex;
-  animation: scrollGallery 50s linear infinite;
+  animation: scrollGallery 65s linear infinite;
 }
  
 .hero-media-side {
